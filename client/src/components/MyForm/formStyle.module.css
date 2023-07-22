@@ -10,7 +10,10 @@
     display: flex;
     flex-direction: column;
   }
-  
+  .myForm input:not(:last-child) {
+    margin-right: 5px; 
+  }
+
   .myForm input {
     padding: 8px;
     border: 1px solid #ccc;
